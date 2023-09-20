@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1450A3;
+    padding: 10px 20px;
+    color: white;
+}
+
+/* Style for logo */
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* Style for navigation links */
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-links li {
+    margin: 2px 35px;
+    font-weight: bold;
+    
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Style for the button */
+.nav-button {
+    background-color: #B64848;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.nav-button:hover{
+    opacity: 90%;
+}
+
+.nav-right{
+    display: flex;
+}
